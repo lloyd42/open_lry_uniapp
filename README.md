@@ -7,11 +7,11 @@
 - 小说、漫画、视频模块
 - 搜索（仅标题）
 ## 截图
-<div style="display:flex;just-content:space-around;margin-bottom:20px">
+<div align="center" style="display:flex;just-content:space-between;margin-bottom:20px">
 <img src="https://github.com/lloyd42/open_lry_uniapp/blob/main/src/static/fiction.jpg" alt="小说" style="width:270px;"/>
 <img src="https://github.com/lloyd42/open_lry_uniapp/blob/main/src/static/comic.jpg" alt="漫画" style="width:270px;"/>
 </div>
-<div style="display:flex;just-content:space-around;margin-bottom:20px">
+<div align="center" style="display:flex;just-content:space-between;margin-bottom:20px">
 <img src="https://github.com/lloyd42/open_lry_uniapp/blob/main/src/static/video.jpg" alt="视频" style="width:270px;"/>
 <img src="https://github.com/lloyd42/open_lry_uniapp/blob/main/src/static/setting.jpg" alt="设置" style="width:270px;"/>
 </div>
