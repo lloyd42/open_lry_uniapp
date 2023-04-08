@@ -1,6 +1,7 @@
 {
 	"name": "open_lry_uniapp",
 	"version": "0.1.0",
+	"license": "MIT",
 	"scripts": {
 		"dabao": "node buildTmui/build.js 3.1.02",
 		"dev:app": "uni -p app",
