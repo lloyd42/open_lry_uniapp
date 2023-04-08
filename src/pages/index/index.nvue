@@ -1,0 +1,11 @@
+<template>
+</template>
+
+<script lang="ts" setup>
+	import { ref, getCurrentInstance } from "vue"
+	import { onShow, onLoad } from "@dcloudio/uni-app";
+	import tmApp from "@/tmui/components/tm-app/tm-app.vue"
+
+
+	const acc = ref(1)
+</script>

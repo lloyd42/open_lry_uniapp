@@ -1,0 +1,142 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^tm-(.*)": "@/tmui/components/tm-$1/tm-$1.vue"
+		}
+	},
+	"pages": [{
+			"path": "pages/fiction/fiction",
+			"style": {
+				"navigationBarTitleText": "小说",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/comic/comic",
+			"style": {
+				"navigationBarTitleText": "漫画",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/video/video",
+			"style": {
+				"navigationBarTitleText": "视频",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/fiction_detail/fiction_detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/fiction_chapter/fiction_chapter",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/comic_detail/comic_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/comic_chapter/comic_chapter",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/video_detail/video_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/video_chapter/video_chapter",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"borderStyle": "black",
+		"selectedColor": "#007aff",
+		"list": [{
+				"pagePath": "pages/fiction/fiction",
+				"text": "小说",
+				"iconPath": "static/fiction_default.png",
+				"selectedIconPath": "static/fiction_selected.png"
+			},
+			{
+				"pagePath": "pages/comic/comic",
+				"text": "漫画",
+				"iconPath": "static/comic_default.png",
+				"selectedIconPath": "static/comic_selected.png"
+			},
+			{
+				"pagePath": "pages/video/video",
+				"text": "视频",
+				"iconPath": "static/video_default.png",
+				"selectedIconPath": "static/video_selected.png"
+			},
+			{
+				"pagePath": "pages/setting/setting",
+				"text": "设置",
+				"iconPath": "static/setting_default.png",
+				"selectedIconPath": "static/setting_selected.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "悦视",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"app-plus": {
+			"titleNView": false
+		}
+	},
+	"condition": {
+		"current": 0,
+		"list": [{
+			"name": "",
+			"path": "",
+			"query": ""
+		}]
+	}
+}
